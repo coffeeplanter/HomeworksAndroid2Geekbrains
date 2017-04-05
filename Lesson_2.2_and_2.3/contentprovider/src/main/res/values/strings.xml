@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Content Provider</string>
+    <string name="string_encrypted">Значение зашифровано</string>
+    <string name="string_enc_empty">Пустое значение не может быть зашифровано</string>
+    <string name="string_decrypted">Значение расшифровано</string>
+    <string name="string_dec_empty">Пустое значение не может быть расшифровано</string>
+    <string name="sh_prefs_saved">Cочетание ключ-значение сохранено в SharedPreferences</string>
+    <string name="sh_prefs_incorrect">Введите корректное сочетание ключ-значение</string>
+    <string name="sh_prefs_read_message">Значение ключа \"%1$s\" считано из SharedPreferences</string>
+    <string name="sh_prefs_read_error_message">Такого ключа нет в SharedPreferences</string>
+    <string name="sh_prefs_read_error_empty_message">Для проверки значения введите ключ</string>
+    <string name="sh_prefs_delete_message">Ключ \"%1$s\" удалён из SharedPreferences</string>
+    <string name="sh_prefs_delete_error_message">Введите ключ, который хотите удалить</string>
+    <string name="bd_add_message">Cочетание ключ-значение записано в базу данных</string>
+    <string name="bd_read_message">Значение ключа \"%1$s\" считано из базы данных</string>
+    <string name="bd_read_error_empty_message">Такого ключа нет в базе данных</string>
+    <string name="bd_delete_message">Ключ \"%1$s\" и его значение удалены из базы данных</string>
+    <string name="bd_delete_error_message">Введите ключ, который хотите удалить</string>
+    <string name="photo_save_message">Файл сохранён</string>
+    <string name="photo_save_error_message">Ошибка во время сохранения файла</string>
+    <string name="photo_save_error_no_image_message">Изображение для сохранения отсутствует</string>
+    <string name="photo_load_message">Файл успешно загружен</string>
+    <string name="photo_load_error_no_file_message">Файла с изображением не существует</string>
+    <string name="photo_load_error_message">Ошибка во время загрузки файла</string>
+    <string name="photo_delete_message">Файл удалён</string>
+    <string name="ext_stor_no_write_access_message">Внешнее хранилище недоступно для записи</string>
+    <string name="ext_stor_no_read_access_message">Внешнее хранилище недоступно для чтения</string>
+    <string name="photo_got_message">Изображение получено, обработано и сохранено</string>
+</resources>

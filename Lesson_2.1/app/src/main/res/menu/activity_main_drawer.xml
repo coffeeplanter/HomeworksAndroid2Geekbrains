@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/nav_open_second_activity"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:title="@string/menu_open_second_activity" />
+
+    <item android:title="@string/menu_copy">
+        <menu>
+            <item
+                android:id="@+id/nav_copy_all"
+                android:icon="@drawable/ic_content_copy_black_24dp"
+                android:title="@string/menu_copy_all" />
+            <item
+                android:id="@+id/nav_copy_email"
+                android:icon="@drawable/ic_content_copy_black_24dp"
+                android:title="@string/menu_copy_email" />
+            <item
+                android:id="@+id/nav_copy_github"
+                android:icon="@drawable/ic_content_copy_black_24dp"
+                android:title="@string/menu_copy_github" />
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_sms">
+        <menu>
+            <item
+                android:id="@+id/nav_sms_email"
+                android:icon="@drawable/ic_textsms_black_24dp"
+                android:title="@string/menu_sms_email" />
+            <item
+                android:id="@+id/nav_sms_github"
+                android:icon="@drawable/ic_textsms_black_24dp"
+                android:title="@string/menu_sms_github" />
+        </menu>
+    </item>
+
+</menu>

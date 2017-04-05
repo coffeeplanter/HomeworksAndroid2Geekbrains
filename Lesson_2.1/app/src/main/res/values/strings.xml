@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Lesson 2.1</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Настройки</string>
+
+
+    <string name="about_text">Меня зовут <b>Илья Соловьёв</b>.\n\nЯ начинающий <b>Android-разработчик</b>. К настоящему моменту закончил курсы Geekbrains: Java 1, Java 2, SQL и Android 1. Сейчас прохожу Android 2.\n\nВ рамках курсов изучил основы разработки под Android. Не хватает практики, но готов много учиться. Был бы рад <b>предложениям о работе</b> или подработке.\n\nМой профиль на Гитхабе: <a href="https://github.com/coffeeplanter">https://github.com/coffeeplanter</a>.\n\nМоя электронная почта: is3k@ya.ru.\n\nВ дальнейшем есть планы освоить также программирование под iOS.</string>
+
+    <string name="copying_done">Скопировано в буфер</string>
+    <string name="sms_sent">СМС отправляется…</string>
+    <string name="copying">Копирование</string>
+    <string name="nav_name">Илья Соловьёв</string>
+    <string name="email">is3k@ya.ru</string>
+    <string name="github">https://github.com/coffeeplanter</string>
+
+    <string name="menu_copy">Копировать</string>
+    <string name="menu_copy_all">Весь текст</string>
+    <string name="menu_copy_email">Адрес электронной почты</string>
+    <string name="menu_copy_github">Адрес на Гитхабе</string>
+    <string name="menu_sms">Отправить СМС</string>
+    <string name="menu_sms_email">Адрес электронной почты</string>
+    <string name="menu_sms_github">Адрес на Гитхабе</string>
+    <string name="menu_open_second_activity">Открыть другую активность</string>
+    <string name="second_activity_text">Это вторая активность для теста кнопки перехода назад.</string>
+    <string name="tab_one_title">Раз</string>
+    <string name="tab_two_title">Два</string>
+    <string name="tab_three_title">Три</string>
+    <string name="tab_one_content">@string/about_text</string>
+    <string name="tab_two_content">Это вторая вкладка.</string>
+    <string name="tab_three_content">А это третья.</string>
+
+</resources>

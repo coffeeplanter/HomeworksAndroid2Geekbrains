@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lesson 2.5</string>
+
+    <string name="start_service_button">Загрузить изображения</string>
+    <string name="gallery_item_desc">Изображение</string>
+    <string name="background_hint">ЗАГРУЗИТЕ\nСНИМКИ</string>
+    <string name="files_updated_toast">Изображения обновлены</string>
+</resources>

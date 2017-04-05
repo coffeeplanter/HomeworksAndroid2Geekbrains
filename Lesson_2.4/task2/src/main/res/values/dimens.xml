@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="interline_margin">32dp</dimen>
+    <dimen name="innerline_margin">0dp</dimen>
+    <dimen name="side_margin">8dp</dimen>
+</resources>

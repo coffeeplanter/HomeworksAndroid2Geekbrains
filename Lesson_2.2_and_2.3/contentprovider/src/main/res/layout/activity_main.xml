@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ru.geekbrains.android2.lesson22.MainActivity">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        tools:context="ru.geekbrains.android2.lesson22.MainActivity">
+
+        <TextView
+            android:id="@+id/inputLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Работа с парами ключ-значение" />
+
+        <LinearLayout
+            android:id="@+id/editRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/inputLabel"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editKey"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Ключ"
+                android:nextFocusUp="@id/editKey"
+                android:nextFocusLeft="@id/editKey"/>
+
+            <EditText
+                android:id="@+id/editValue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/editKey"
+                android:layout_weight="1"
+                android:hint="Значение" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/buttonCryptRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editRow"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonEncrypt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Зашифровать" />
+
+            <Button
+                android:id="@+id/buttonDecrypt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/buttonEncrypt"
+                android:layout_weight="1"
+                android:text="Расшифровать" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/sharedPrefsLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttonCryptRow"
+            android:layout_marginTop="15dp"
+            android:text="Сохранение в SharedPreferences" />
+
+        <LinearLayout
+            android:id="@+id/buttonPrefRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sharedPrefsLabel"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonAddSharedPrefs"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Добавить" />
+
+            <Button
+                android:id="@+id/buttonGetSharedPrefs"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/buttonAddSharedPrefs"
+                android:layout_weight="1"
+                android:text="Проверить" />
+
+            <Button
+                android:id="@+id/buttonDeleteSharedPrefs"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/buttonGetSharedPrefs"
+                android:layout_weight="1"
+                android:text="Удалить" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/dBLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttonPrefRow"
+            android:layout_marginTop="15dp"
+            android:text="Сохранение в базе данных" />
+
+        <LinearLayout
+            android:id="@+id/buttonDBRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dBLabel"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonAddDB"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Добавить" />
+
+            <Button
+                android:id="@+id/buttonGetDB"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/buttonAddDB"
+                android:layout_weight="1"
+                android:text="Проверить" />
+
+            <Button
+                android:id="@+id/buttonDeleteDB"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/buttonGetDB"
+                android:layout_weight="1"
+                android:text="Удалить" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/labelMakePhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttonDBRow"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:text="Работа с изображением"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:id="@+id/buttonMakePhotoRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/labelMakePhoto"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonMakePhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Сделать снимок" />
+
+            <TextView
+                android:id="@+id/labelMakePhotoButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/buttonMakePhoto"
+                android:layout_gravity="top"
+                android:layout_marginTop="-15dp"
+                android:layout_marginLeft="8dp"
+                android:text="Будет сохранён в публичной области внешнего хранилища" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageViewPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_below="@id/buttonMakePhotoRow" />
+
+        <TextView
+            android:id="@+id/labelInternalStorage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageViewPhoto"
+            android:layout_marginTop="15dp"
+            android:text="Внутреннее хранилище" />
+
+        <LinearLayout
+            android:id="@+id/buttonIntStorRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/labelInternalStorage"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonSaveToInternal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Сохранить" />
+
+            <Button
+                android:id="@+id/buttonLoadFromInternal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/buttonSaveToInternal"
+                android:layout_weight="1"
+                android:text="Загрузить" />
+
+            <Button
+                android:id="@+id/buttonDeleteFromInternal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/buttonLoadFromInternal"
+                android:layout_weight="1"
+                android:text="Удалить" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/labelExternalStorage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttonIntStorRow"
+            android:layout_marginTop="15dp"
+            android:text="Внешнее хранилище (приватная область)" />
+
+        <LinearLayout
+            android:id="@+id/buttonExtStorRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_below="@id/labelExternalStorage"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonSaveToExternal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Сохранить" />
+
+            <Button
+                android:id="@+id/buttonLoadFromExternal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/buttonSaveToExternal"
+                android:layout_weight="1"
+                android:text="Загрузить" />
+
+            <Button
+                android:id="@+id/buttonDeleteFromExternal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/buttonLoadFromExternal"
+                android:layout_weight="1"
+                android:text="Удалить" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>

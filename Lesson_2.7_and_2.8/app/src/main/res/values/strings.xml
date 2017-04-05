@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lesson 2.7</string>
+    <string name="add_widget">Add widget</string>
+    <string name="header">Моё местоположение</string>
+    <string name="gsm_header">По данным сотовой сети</string>
+    <string name="gps_header">По спутниковым данным</string>
+    <string name="address_header">Адрес:</string>
+    <string name="coordinates_header">Координаты:</string>
+    <string name="no_gsm_permission">Разрешение на приблизительное определение местоположения отсутствует.</string>
+    <string name="no_gps_permission">Разрешение на точное определение местоположения отсутствует.</string>
+</resources>

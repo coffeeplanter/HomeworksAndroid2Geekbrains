@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lesson 2.4: Task 2</string>
+    <string name="chronometer_label">Секундомер:</string>
+    <string name="interval_messenger_label">Отметка интервала:</string>
+    <string name="interval_messenger_runtime_label">Отметка интервала %1$d сек.:</string>
+    <string name="timer_on_start">0</string>
+    <string name="start_timer_message">Запуск секундомера</string>
+    <string name="stop_timer_message">Остановка секундомера</string>
+</resources>

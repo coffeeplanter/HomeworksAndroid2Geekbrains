@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:initialKeyguardLayout="@layout/location_widget"
+                    android:initialLayout="@layout/location_widget"
+                    android:minHeight="180dp"
+                    android:minWidth="250dp"
+                    android:minResizeHeight="180dp"
+                    android:minResizeWidth="180dp"
+                    android:previewImage="@drawable/widget_preview_earth"
+                    android:resizeMode="horizontal|vertical"
+                    android:updatePeriodMillis="1800000"
+                    android:widgetCategory="home_screen">
+</appwidget-provider>

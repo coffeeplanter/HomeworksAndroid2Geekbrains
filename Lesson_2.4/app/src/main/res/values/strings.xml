@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lesson 2.4</string>
+    <string name="download_started">Запущена загрузка изображения</string>
+    <string name="action_download">Загрузить изображение</string>
+    <string name="xml_content_description">Изображение из Интернета</string>
+    <string name="image_url">https://img-fotki.yandex.ru/get/44813/32775641.3f/0_babd0_c0525e06_XXXL.jpg</string>
+</resources>

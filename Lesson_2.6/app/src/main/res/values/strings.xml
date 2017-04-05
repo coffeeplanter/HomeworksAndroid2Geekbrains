@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lesson 2.6</string>
+    <string name="appwidget_text">Последние сообщения</string>
+    <string name="configure">Начальная настройка виджета</string>
+    <string name="widget_header">Введите заголовок</string>
+    <string name="widget_items_count">Введите количество последних сообщений (не более 20)</string>
+    <string name="add_widget">Добавить виджет</string>
+    <string name="main_activity_message">Виджет установлен</string>
+    <string name="empty_string">Сообщений\nне найдено</string>
+</resources>

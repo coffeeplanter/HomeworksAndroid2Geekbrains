@@ -1,0 +1,75 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#0099cc"
+    tools:context="ru.geekbrains.android2.lesson25.MainActivity">
+
+    <TextView
+        android:id="@+id/fullscreen_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@string/background_hint"
+        android:textColor="#33b5e5"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/photo_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+        </android.support.v7.widget.RecyclerView>
+
+    </FrameLayout>
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <Button
+                android:id="@+id/start_service_button"
+                style="?metaButtonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/start_service_button"
+                android:textColor="@android:color/white"/>
+
+            <!--<Button-->
+                <!--android:id="@+id/take_photo_button"-->
+                <!--style="?metaButtonBarButtonStyle"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="Сделать\nснимок"-->
+                <!--android:textColor="@android:color/white"/>-->
+
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

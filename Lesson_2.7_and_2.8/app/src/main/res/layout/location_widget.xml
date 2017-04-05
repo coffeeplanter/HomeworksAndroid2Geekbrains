@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background"
+                android:padding="@dimen/widget_margin">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:padding="@dimen/widget_padding"
+        android:text="@string/header"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:id="@+id/gsm_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:padding="@dimen/widget_padding"
+        android:text="@string/gsm_header"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:id="@+id/gsm_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gsm_header"
+        android:paddingBottom="@dimen/items_interval"
+        android:paddingEnd="@dimen/widget_padding"
+        android:paddingLeft="@dimen/widget_padding"
+        android:paddingRight="@dimen/widget_padding"
+        android:paddingStart="@dimen/widget_padding"
+        android:paddingTop="@dimen/zero_dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:id="@+id/gsm_coordinates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gsm_address"
+        android:paddingBottom="@dimen/zero_dp"
+        android:paddingEnd="@dimen/widget_padding"
+        android:paddingLeft="@dimen/widget_padding"
+        android:paddingRight="@dimen/widget_padding"
+        android:paddingStart="@dimen/widget_padding"
+        android:paddingTop="@dimen/items_interval"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:id="@+id/gps_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gsm_coordinates"
+        android:layout_marginTop="@dimen/widget_padding"
+        android:padding="@dimen/widget_padding"
+        android:text="@string/gps_header"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:id="@+id/gps_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gps_header"
+        android:paddingBottom="@dimen/items_interval"
+        android:paddingEnd="@dimen/widget_padding"
+        android:paddingLeft="@dimen/widget_padding"
+        android:paddingRight="@dimen/widget_padding"
+        android:paddingStart="@dimen/widget_padding"
+        android:paddingTop="@dimen/zero_dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:id="@+id/gps_coordinates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gps_address"
+        android:paddingBottom="@dimen/widget_padding"
+        android:paddingEnd="@dimen/widget_padding"
+        android:paddingLeft="@dimen/widget_padding"
+        android:paddingRight="@dimen/widget_padding"
+        android:paddingStart="@dimen/widget_padding"
+        android:paddingTop="@dimen/items_interval"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFF"/>
+
+</RelativeLayout>

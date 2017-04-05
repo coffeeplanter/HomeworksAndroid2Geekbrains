@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ru.geekbrains.android2.task2.MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/chronometer_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/innerline_margin"
+        android:layout_marginLeft="@dimen/side_margin"
+        android:layout_marginRight="@dimen/side_margin"
+        android:layout_marginTop="@dimen/interline_margin"
+        android:text="@string/chronometer_label"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        app:layout_constraintBottom_toTopOf="@+id/chronometer"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/interline_margin"
+        android:layout_marginLeft="@dimen/side_margin"
+        android:layout_marginRight="@dimen/side_margin"
+        android:layout_marginTop="@dimen/innerline_margin"
+        android:text="@string/timer_on_start"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        app:layout_constraintBottom_toTopOf="@+id/interval_messenger_1_label"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chronometer_label"/>
+
+    <TextView
+        android:id="@+id/interval_messenger_1_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/innerline_margin"
+        android:layout_marginLeft="@dimen/side_margin"
+        android:layout_marginRight="@dimen/side_margin"
+        android:layout_marginTop="@dimen/interline_margin"
+        android:text="@string/interval_messenger_label"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        app:layout_constraintBottom_toTopOf="@+id/interval_messenger_1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chronometer"/>
+
+    <TextView
+        android:id="@+id/interval_messenger_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/interline_margin"
+        android:layout_marginLeft="@dimen/side_margin"
+        android:layout_marginRight="@dimen/side_margin"
+        android:layout_marginTop="@dimen/innerline_margin"
+        android:text="@string/timer_on_start"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        app:layout_constraintBottom_toTopOf="@+id/interval_messenger_2_label"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/interval_messenger_1_label"/>
+
+    <TextView
+        android:id="@+id/interval_messenger_2_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/innerline_margin"
+        android:layout_marginLeft="@dimen/side_margin"
+        android:layout_marginRight="@dimen/side_margin"
+        android:layout_marginTop="@dimen/interline_margin"
+        android:text="@string/interval_messenger_label"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        app:layout_constraintBottom_toTopOf="@+id/interval_messenger_2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/interval_messenger_1"/>
+
+    <TextView
+        android:id="@+id/interval_messenger_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/interline_margin"
+        android:layout_marginLeft="@dimen/side_margin"
+        android:layout_marginRight="@dimen/side_margin"
+        android:layout_marginTop="@dimen/innerline_margin"
+        android:text="@string/timer_on_start"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/interval_messenger_2_label"/>
+
+</android.support.constraint.ConstraintLayout>
