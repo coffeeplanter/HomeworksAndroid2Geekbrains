@@ -13,4 +13,4 @@
  
 ### Screenshot / Скриншот
 
-![Screenshot](/screenshot.png?raw=true "Screenshot")
+![Screenshot](/Lesson_2.6/screenshot.png?raw=true "Screenshot")

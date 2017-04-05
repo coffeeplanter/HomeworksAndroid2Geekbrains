@@ -22,4 +22,4 @@
  
 ### Screenshot / Скриншот
 
-![Screenshot](/screenshot.png?raw=true "Screenshot")
+![Screenshot](/Lesson_2.7_and_2.8/screenshot.png?raw=true "Screenshot")
