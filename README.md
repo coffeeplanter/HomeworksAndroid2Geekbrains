@@ -19,7 +19,7 @@
 Простое приложение с информацией обо мне как об Android-разработчике.
 Используется DrawerLayout, NavigationView, CoordinatorLayout, TabLayout, ViewPager, контекстное меню, всплывающее меню, главное меню, явные и неявные интенты, копирование текста в буфер.
  
-### Screenshot / Скриншот
+### Скриншот
 
 ![Screenshot](/Lesson_2.1/screenshot.png?raw=true "Screenshot")
 
@@ -45,7 +45,7 @@
 Я объединил два урока, т. к. они тесно связаны друг с другом. В одном проекта  два модуля: contentprovider и contentproviderclient — по сути отдельные приложения.  
 Всё сделано по пунктам. Добавление фотографии реализовано через неявный интент к камере, при отображении снимка его размеры оптимизируются. Для шифрования использовалась библиотека javax.crypto.Cipher.
 
-### Screenshot / Скриншот
+### Скриншот
 
 ![Screenshot](/Lesson_2.2_and_2.3/screenshot.png?raw=true "Screenshot")
 
@@ -61,7 +61,7 @@
 Задачи на понимание многопоточности и применение класса AsyncTask.  
 В проекте два модуля.
 
-### Screenshot / Скриншот
+### Скриншот
 
 ![Screenshot](/Lesson_2.4/screenshot.png?raw=true "Screenshot")
 
@@ -76,7 +76,7 @@
 
 Реализовал как полноэкранное приложение.
  
-### Screenshot / Скриншот
+### Скриншот
 
 ![Screenshot](/Lesson_2.5/screenshot.png?raw=true "Screenshot")
 
@@ -91,7 +91,7 @@
 Виджет-список.  
 При добавлении виджета на экран можно выбрать количество выводимых сообщений (но не более 20).
  
-### Screenshot / Скриншот
+### Скриншот
 
 ![Screenshot](/Lesson_2.6/screenshot.png?raw=true "Screenshot")
 
@@ -115,7 +115,7 @@
 Для запуска карт, нужно получить ключ от Google API. Ищите в Гугле, как это сделать.  
 К последнему занятию по отладке домашнего задания не было.
  
-### Screenshot / Скриншот
+### Скриншот
 
 ![Screenshot](/Lesson_2.7_and_2.8/screenshot.png?raw=true "Screenshot")
 
